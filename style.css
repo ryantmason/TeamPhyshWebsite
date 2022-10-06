@@ -1,0 +1,79 @@
+.parallax {
+  background-image: url("waterpattern.jpeg");
+  min-height: 250px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+}
+.parallax2 {
+  background-image: url("sedonafishing.jpeg");
+  min-height: 500px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+h1 {
+  font-family: "Lucida Console";
+  text-align: center;
+  color: white;
+  width: 100%;
+}
+h2 {
+  font-family: "Lucida Console";
+  text-align: center;
+  color: white;
+}
+p {
+  font-family: "Lucida Console";
+  text-align: center;
+  color: white;
+  font-size: 20px;
+}
+contact_information{
+  text-align: center;
+  min-height: 500px;
+  font-family: "Lucida Console";
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+archive{
+  font-family: "Lucida Console";
+  min-height: 500px;
+  text-align: center;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+body {
+  margin: 0;
+  background-color: #389795;
+}
+
+iframe {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  float: center;
+}
+.topnavigation {
+  overflow: hidden;
+}
+.topnavigation a {
+  font-family: "Lucida Console";
+  float: right;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+.topnavigation a:hover {
+  color: green;
+}
