@@ -86,13 +86,22 @@ li, a {
   background-size: cover;
   position: absolute;
 }
-.parallax2 {
+#parallax2 {
   background-image: url("../images/david-landscape.jpg");
-  height: 800px;
+  height: 95%;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#parallax2 img {
+  height: 300px;
+  width: 300px;
+  opacity: 80%;
 }
 
 .parallax3 {
@@ -160,7 +169,7 @@ archive{
 }
 body {
   margin: 0;
-  background-color: #389795;
+  background-color: #ffffff;
 }
 
 iframe {
