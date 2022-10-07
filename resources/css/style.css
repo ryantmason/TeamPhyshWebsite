@@ -11,6 +11,8 @@ html, body {
 #navbar {
   overflow: hidden;
   background-color: rgba(18, 18, 18, 0.9);
+  position: fixed;
+  width: 100%;
 }
 
 #logo {
@@ -82,7 +84,6 @@ li, a {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  top: 0;
   position: absolute;
 }
 .parallax2 {
