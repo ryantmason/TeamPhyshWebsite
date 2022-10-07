@@ -129,10 +129,13 @@ h2 {
   font-family: Montserrat, sans-serif;
   text-align: center;
   color: black;
+  padding-left: 10%;
+  padding-right: 10%;
 }
 h3 {
   font-family: Montserrat, sans-serif;
-  padding-left: 5px;
+  padding-left: 10%;
+  padding-right: 10%;
   text-align: left;
   color: black;
 }
@@ -141,6 +144,8 @@ p {
   text-align: center;
   color: black;
   font-size: 20px;
+  padding-left: 10%;
+  padding-right: 10%;
 }
 
 ul {
@@ -148,6 +153,8 @@ ul {
   text-align: left;
   color: black;
   font-size: 20px;
+  padding-left: 10%;
+  padding-right: 10%;
 }
 
 #archive{
@@ -221,6 +228,10 @@ p.smalltitle {
 p.title, p.desc {
   color: grey;
   font-size: 18px;
+}
+
+blockPadding {
+  padding-left: 25%;
 }
 
 h1.name {
