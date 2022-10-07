@@ -32,7 +32,8 @@ html, body {
 }
 
 li, a {
-	font-family: Montserrat, sans-serif;
+	font-family: 'Baloo 2', cursive;
+  font-size: 20px;
 	color: white;
 	text-decoration: none;
 
@@ -119,7 +120,7 @@ li:not(:last-child) {
 }
 
 h1 {
-  font-family: Montserrat, sans-serif;
+  font-family: 'Baloo 2', cursive;
   text-align: center;
   color: black;
   width: 100%;
@@ -131,18 +132,24 @@ h1.name {
   width: 100%;
 }
 h2 {
-  font-family: Montserrat, sans-serif;
+  font-family: 'Baloo 2', cursive;
   text-align: center;
   color: black;
   padding-left: 10%;
   padding-right: 10%;
+  text-decoration: underline;
+  text-decoration-color: #2957c7;
+  text-decoration-thickness: 0.2em;
 }
 h3 {
-  font-family: Montserrat, sans-serif;
+  font-family: 'Baloo 2', cursive;
   padding-left: 10%;
   padding-right: 10%;
-  text-align: left;
+  text-align: center;
   color: black;
+  text-decoration: underline;
+  text-decoration-color: #2957c7;
+  text-decoration-thickness: 0.15em;
 }
 
 
@@ -195,6 +202,7 @@ iframe {
   margin-right: auto;
   text-align: center;
   float: center;
+  
 }
 .topnavigation {
   overflow: hidden;
