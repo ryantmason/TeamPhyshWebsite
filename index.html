@@ -1,111 +1,123 @@
 <!DOCTYPE html>
 <html>
+  
 <head>
   <link rel="stylesheet" href="./resources/css/style.css">
   <title>Team 12 - Physh Homepage UNDER CONSTRUCTION</title>
 </head>
+
+
 <body>
 
-<!--
-<div class="logo">
-<h1><u>Team 12 - Physh Homepage (UNDER CONSTRUCTION)</u></h2>
-<img src="./resources/images/Logo.png" alt="Team Logo">
-</div>
-
-<div class="topnavigation">
-  <a href="window.location.href='contact_information'">Contact Information</a>
-  <a href="#archive">Archive + Calendar</a>
-  <a href="#project-info">Project Info</a>
-</div>
--->
-<nav>
-  <div class="logo">
-    <img src="resources/images/Logo.png" alt="logo" width="80" height="80">
+  <div id="navbar">
+    <img id="logo"src="resources/images/Logo.png" alt="logo" width="80" height="80">
+    <div class = "nav_links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="#contact_information">Contact Information</a></li>
+      <li><a href="#archive">Archive + Calendar</a></li>
+      <li><a href="#project-info">Project Info</a></li>
+    </div>
   </div>
-  <ul class = "nav_links">
-    <li><a href="index.html">Home</a></li>
-    <li><a href="#contact_information">Contact Information</a></li>
-    <li><a href="#archive">Archive + Calendar</a></li>
-    <li><a href="#project-info">Project Info</a></li>
-  </ul>
-</nav>
+
+  
+    <div class="parallax2">
+
+      
+    </div>
+
+    <div class="contact_information">
+    <h2> Contact Information </h2>
+    <dl>
+      <dt>Scott Austin</dt>
+        <dd> - Email: sha76@nau.edu </dd>
+      <dt>Shelby Hagemann</dt>
+        <dd> - Email: seh428@nau.edu </dd>
+      <dt>Eduardo Martinez</dt>
+        <dd> - Email: em2475@nau.edu </dd>
+      <dt>Ryan Mason</dt>
+        <dd> - Email: rtm248@nau.edu </dd>
+      <dt>Jack Normand</dt>
+        <dd> - Email: jen88@nau.edu </dd>
+    </dl>
+    </div>
+
+    <!--Project Info-->
+    <div class="parallax3"></div>
+    <div class="info">
+      <div id="project-info"></div>
+      <h2>Project Information</h2>
+      <p>
+        The Arizona Game and Fish Department (AZGFD) is responsible for managing fish in the state of Arizona. 
+        A challenge they have been faced with is collecting a high volume of data from rainbow trout fish such as their growth rates, movement, and overall survival.
+        Currently they have scientists going out 3-4 times a year to collect data with specialized tools, but AZGFD wants a way for the everyday angler to be able to gather and update information on these trout. 
+      </p>
+      <p>
+        By creating a mobile application that allows local anglers and guides to collect data, we streamline that process and 
+        provide the angler with the ability to obtain that information themselves, without the need to contact a scientist. 
+      </p>
+      <h3>
+        High-Level Requirements
+      </h3>
+      <ul>
+        <li>Works on android and iOS mobile phones</li>
+        <li>Bluetooth connectivity with passive integrated transponder (PIT) tag scanner</li>
+        <li>Recognize a (PIT) tag identified by the scanner and provide history on that tag</li>
+        <li>Retrieve history information on that unique PIT tag either offline or online </li>
+        <li>Have the ability to add information (data) on the fish carrying that tag</li>
+        <li>Ability to upload data to database in the cloud</li>
+      </ul>
+      <h3>
+        Envisioned Solution
+      </h3>
+      <p>
+        Our envisioned solution would be a cross-platform mobile application that allows local anglers to effortlessly gather and view data on fish they catch. 
+        While the development of an application would help manage the Lees Ferry fishery, this application could also be used by others that utilize a mark 
+        recapture program and PIT tags in their research. There are multiple mark-recapture programs around the country and 
+        the world that would benefit from the development of this application. 
+      </p>
+      <h2>
+        Sponsor Information
+      </h2>
+      <div class="card">
+        <img src="./resources/images/david.png" alt="David" style="width:100%">
+        <h1 class="name">David Rogowski PHD</h1>
+        <p class="title">Wildlife Specialist Regional Supervisor</p>
+        <p class="desc"> Arizona Game and Fish Department <br>
+          <button onclick="location.href='https://www.azwildlifehero.com/our-experts/david-rogowski-phd'" type="button">More info about David here</button>
+        </p>
+      </div>
+    </div>
+    <!--End Project Info-->
+
+    <div class="parallax"></div>
+    <div class="archive">
+      <div id="archive"></div>
+      <h2>Calendar and Archive</h2>
+      <p>Check out our Google calendar, with all of our deadlines and planned meetings! </p>
+      <iframe src="https://calendar.google.com/calendar/embed?height=600&wkst=1&bgcolor=%23009688&ctz=America%2FPhoenix&src=Y190ZWJuZWE3MGRpZjh1dWxyb2pvZjJzcW5qMEBncm91cC5jYWxlbmRhci5nb29nbGUuY29t&color=%233F51B5" style="border:solid 1px #777" width="800" height="600" frameborder="0" scrolling="no"></iframe>
+    </div>
+
+    <div class="parallax"></div>
 
 
-<div class="parallax2"></div>
 
-<div class="contact_information">
-<h2> Contact Information </h2>
-<dl>
-  <dt>Scott Austin</dt>
-    <dd> - Email: sha76@nau.edu </dd>
-  <dt>Shelby Hagemann</dt>
-    <dd> - Email: seh428@nau.edu </dd>
-  <dt>Eduardo Martinez</dt>
-    <dd> - Email: em2475@nau.edu </dd>
-  <dt>Ryan Mason</dt>
-    <dd> - Email: rtm248@nau.edu </dd>
-  <dt>Jack Normand</dt>
-    <dd> - Email: jen88@nau.edu </dd>
-</dl>
-</div>
 
-<!--Project Info-->
-<div class="parallax3"></div>
-<div class="info">
-  <div id="project-info"></div>
-  <h2>Project Information</h2>
-  <p>
-    The Arizona Game and Fish Department (AZGFD) is responsible for managing fish in the state of Arizona. 
-    A challenge they have been faced with is collecting a high volume of data from rainbow trout fish such as their growth rates, movement, and overall survival.
-    Currently they have scientists going out 3-4 times a year to collect data with specialized tools, but AZGFD wants a way for the everyday angler to be able to gather and update information on these trout. 
-  </p>
-  <p>
-    By creating a mobile application that allows local anglers and guides to collect data, we streamline that process and 
-    provide the angler with the ability to obtain that information themselves, without the need to contact a scientist. 
-  </p>
-  <h3>
-     High-Level Requirements
-  </h3>
-  <ul>
-    <li>Works on android and iOS mobile phones</li>
-    <li>Bluetooth connectivity with passive integrated transponder (PIT) tag scanner</li>
-    <li>Recognize a (PIT) tag identified by the scanner and provide history on that tag</li>
-    <li>Retrieve history information on that unique PIT tag either offline or online </li>
-    <li>Have the ability to add information (data) on the fish carrying that tag</li>
-    <li>Ability to upload data to database in the cloud</li>
-  </ul>
-  <h3>
-    Envisioned Solution
-  </h3>
-  <p>
-    Our envisioned solution would be a cross-platform mobile application that allows local anglers to effortlessly gather and view data on fish they catch. 
-    While the development of an application would help manage the Lees Ferry fishery, this application could also be used by others that utilize a mark 
-    recapture program and PIT tags in their research. There are multiple mark-recapture programs around the country and 
-    the world that would benefit from the development of this application. 
-  </p>
-  <h2>
-    Sponsor Information
-  </h2>
-  <div class="card">
-    <img src="./resources/images/david.png" alt="David" style="width:100%">
-    <h1 class="name">David Rogowski PHD</h1>
-    <p class="title">Wildlife Specialist Regional Supervisor</p>
-    <p class="desc"> Arizona Game and Fish Department <br>
-      <button onclick="location.href='https://www.azwildlifehero.com/our-experts/david-rogowski-phd'" type="button">More info about David here</button>
-    </p>
-  </div>
-</div>
-<!--End Project Info-->
+    
 
-<div class="parallax"></div>
-<div class="archive">
-  <div id="archive"></div>
-  <h2>Calendar and Archive</h2>
-  <p>Check out our Google calendar, with all of our deadlines and planned meetings! </p>
-  <iframe src="https://calendar.google.com/calendar/embed?height=600&wkst=1&bgcolor=%23009688&ctz=America%2FPhoenix&src=Y190ZWJuZWE3MGRpZjh1dWxyb2pvZjJzcW5qMEBncm91cC5jYWxlbmRhci5nb29nbGUuY29t&color=%233F51B5" style="border:solid 1px #777" width="800" height="600" frameborder="0" scrolling="no"></iframe>
-</div>
-
-<div class="parallax"></div>
+<script>
+  window.onscroll = function() {scrollFunction()};
+  
+  var navbar = document.getElementById("navbar");
+  var sticky = navbar.offsetTop;
+  
+  function scrollFunction() {
+    if (window.pageYOffset >= sticky) {
+      navbar.classList.add("sticky")
+    } else {
+      navbar.classList.remove("sticky");
+    }
+  }
+  </script>
 
 </body>
 </html>

@@ -8,31 +8,46 @@ html, body {
 
 /*Nav Bar CSS Start */
 
-nav {
-	display: flex;
-	justify-content: space-between;
-	align-items: center;
-	padding-right: 150px;
-	padding-left: 50px;
-	height: 90px;
+#navbar {
+  overflow: hidden;
+  background-color: rgba(18, 18, 18, 0.9);
+}
+
+#logo {
+  height: 50px;
+  width: 50px;
+  position: absolute;
+  top: 15px;
+  left: 15px;
+}
+
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
 }
 
 li, a {
 	font-family: Montserrat, sans-serif;
-	color: black;
+	color: white;
 	text-decoration: none;
 
 }
 
 .nav_links {
 	list-style: none;
+  display: flex;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .nav_links > li {
   display: inline-block;
   padding: 0px 5px;
 }
-
 
 .nav_links li a {
 	transition: all 0.3s ease 0s;
@@ -44,10 +59,14 @@ li, a {
 }
 
 .nav_links li + li:before {
-	content: ' | ';
+	content: '';
   	padding-right: 25px;
   	position: relative;
   	top: -2px;
+}
+
+.sticky + .allcontent {
+  padding-top: 60px;
 }
 
 /* Nav Bar CSS End*/
@@ -63,11 +82,12 @@ li, a {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  width: 100%;
+  top: 0;
+  position: absolute;
 }
 .parallax2 {
-  background-image: url("../images/sedonafishing.jpeg");
-  min-height: 500px;
+  background-image: url("../images/david-landscape.jpg");
+  height: 800px;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
