@@ -79,7 +79,7 @@ li, a {
 /* Parallax CSS Start*/
 
 #parallax {
-  background-image: url("../images/bg.png");
+  background-image: url("../images/fishy.jpg");
   min-height: 500px;
   background-attachment: fixed;
   background-position: center;
@@ -150,7 +150,7 @@ ul {
   font-size: 20px;
 }
 
-archive{
+#archive{
   font-family: Montserrat, sans-serif;
   min-height: 500px;
   text-align: center;
@@ -158,6 +158,7 @@ archive{
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  padding-bottom: 10%;
 }
 body {
   margin: 0;
@@ -225,6 +226,10 @@ p.title, p.desc {
 h1.name {
   color: rgb(25, 48, 22);
   font-size: 22px;
+}
+
+#info {
+  padding-bottom: 5%;
 }
 
 button {
