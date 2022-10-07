@@ -78,14 +78,13 @@ li, a {
 
 /* Parallax CSS Start*/
 
-.parallax {
-  background-image: url("../images/waterpattern.jpeg");
-  min-height: 250px;
+#parallax {
+  background-image: url("../images/bg.png");
+  min-height: 500px;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  position: absolute;
 }
 #parallax2 {
   background-image: url("../images/david-landscape.jpg");
@@ -106,7 +105,7 @@ li, a {
 }
 
 .parallax3 {
-  background-image: url("../images/grandCanyon.jpg");
+  background-image: url("../images/gc.jpg");
   min-height: 500px;
   background-attachment: fixed;
   background-position: center;
@@ -202,12 +201,20 @@ iframe {
   transition: 0.3s;
   background-color:bisque;
   max-width: 10%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 #allCards{
   display: flex;
   justify-content: space-evenly;
   margin-bottom: 10%;
+}
+
+p.smalltitle {
+  color: grey;
+  font-size: 14px;
 }
 
 p.title, p.desc {
