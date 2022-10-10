@@ -32,7 +32,7 @@ html, body {
 }
 
 li, a {
-	font-family: 'Baloo 2', cursive;
+	font-family: 'Roboto', sans-serif;
   font-size: 20px;
 	color: white;
 	text-decoration: none;
@@ -120,7 +120,7 @@ li:not(:last-child) {
 }
 
 h1 {
-  font-family: 'Baloo 2', cursive;
+  font-family: 'Roboto', sans-serif;
   text-align: center;
   color: black;
   width: 100%;
@@ -132,24 +132,20 @@ h1.name {
   width: 100%;
 }
 h2 {
-  font-family: 'Baloo 2', cursive;
+  font-family: 'Roboto', sans-serif;
   text-align: center;
   color: black;
   padding-left: 10%;
   padding-right: 10%;
-  text-decoration: underline;
-  text-decoration-color: #2957c7;
-  text-decoration-thickness: 0.2em;
+  
 }
 h3 {
-  font-family: 'Baloo 2', cursive;
+  font-family: 'Roboto', sans-serif;
   padding-left: 10%;
   padding-right: 10%;
   text-align: center;
   color: black;
-  text-decoration: underline;
-  text-decoration-color: #2957c7;
-  text-decoration-thickness: 0.15em;
+ 
 }
 
 
