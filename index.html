@@ -4,6 +4,7 @@
 <head>
   <meta charset="UTF-8">
   <link rel="stylesheet" href="./resources/css/style.css">
+  <script src="/resources/js/team-website.js"></script>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 
@@ -22,7 +23,7 @@
       <li><a href="#contact_information">Contact Information</a></li>
       <li><a href="#project-info">Project Info</a></li>
       <li><a href="#archive">Calendar</a></li>
-      <li><a href="#archive">Archive</a></li>
+      <li><a href="archive.html">Archive</a></li>
     </div>
   </div>
 
@@ -119,27 +120,9 @@
       <div id="archive">
       <h2>Calendar</h2>
       <p>Check out our Google calendar, with all of our deadlines and planned meetings! </p>
-      <iframe src="https://calendar.google.com/calendar/embed?height=600&wkst=1&bgcolor=%23009688&ctz=America%2FPhoenix&src=Y190ZWJuZWE3MGRpZjh1dWxyb2pvZjJzcW5qMEBncm91cC5jYWxlbmRhci5nb29nbGUuY29t&color=%233F51B5" style="border:solid 1px #777" width="800" height="600" frameborder="0" scrolling="no"></iframe>
+      <iframe id="calendar" src="https://calendar.google.com/calendar/embed?height=600&wkst=1&bgcolor=%23009688&ctz=America%2FPhoenix&src=Y190ZWJuZWE3MGRpZjh1dWxyb2pvZjJzcW5qMEBncm91cC5jYWxlbmRhci5nb29nbGUuY29t&color=%233F51B5" style="border:solid 1px #777" width="800" height="600" frameborder="0" scrolling="no"></iframe>
     </div>
     </div>
-
-
-
-
-<script>
-  window.onscroll = function() {scrollFunction()};
-  
-  var navbar = document.getElementById("navbar");
-  var sticky = navbar.offsetTop;
-  
-  function scrollFunction() {
-    if (window.pageYOffset >= sticky) {
-      navbar.classList.add("sticky")
-    } else {
-      navbar.classList.remove("sticky");
-    }
-  }
-  </script>
 
 </body>
 </html>

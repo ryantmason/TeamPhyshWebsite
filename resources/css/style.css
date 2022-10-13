@@ -192,7 +192,7 @@ body {
   background-color: #e0e0e0;
 }
 
-iframe {
+#calendar {
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -280,4 +280,38 @@ button {
 
 button:hover, a:hover {
   opacity: 0.7;
+}
+
+/* Parallax CSS End*/
+
+/*--------------------------------------*/
+
+/* Archive Page CSS Start */
+
+#archiveBody {
+  background-color: bisque;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(2, 0.5fr);
+  grid-template-rows: 0.5fr;
+  grid-column-gap: 5px;
+  grid-row-gap: 0px;
+  padding-top: 5%;
+}
+
+/*
+.grid-item {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+*/
+
+.documentdisplay {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  
 }
