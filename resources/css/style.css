@@ -230,7 +230,7 @@ body {
   box-shadow: 4px 4px 4px 4px rgba(0, 0, 0, 0.2);
   transition: 0.3s;
   background-color:bisque;
-  max-width: 10%;
+  max-width: 12%;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -239,7 +239,7 @@ body {
 #allCards{
   display: flex;
   justify-content: space-evenly;
-  margin-bottom: 10%;
+  margin-bottom: 8%;
 }
 
 p.smalltitle {
@@ -292,13 +292,16 @@ button:hover, a:hover {
   background-color: bisque;
 }
 
+#archiveContainer {
+  padding-top: 5%;
+}
+
 .grid-container {
   display: grid;
   grid-template-columns: repeat(2, 0.5fr);
   grid-template-rows: 0.5fr;
   grid-column-gap: 5px;
   grid-row-gap: 0px;
-  padding-top: 5%;
 }
 
 /*
