@@ -119,16 +119,6 @@ li:not(:last-child) {
   background-size: cover;
 }
 
-/* Scrolly thing for the archive/timeline */
-
-.scroller {
-  height: 80%;
-  width: 80%;
-  border: 1;
-  overflow: auto;
-  padding: 10px;
-}
-
 h1 {
   font-family: 'Roboto', sans-serif;
   text-align: center;
