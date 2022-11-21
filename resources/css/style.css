@@ -309,18 +309,18 @@ button:hover, a:hover {
 .grid-container {
   display: grid;
   grid-template-columns: repeat(2, 0.5fr);
-  grid-template-rows: 0.5fr;
+  grid-template-rows: repeat(2,0.5fr);
   grid-column-gap: 5px;
-  grid-row-gap: 0px;
+  grid-row-gap: 10px;
 }
 
-/*
+
 .grid-item {
   display: flex;
   flex-direction: row;
   justify-content: center;
 }
-*/
+
 
 .documentdisplay {
   display: block;
