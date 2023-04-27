@@ -85,16 +85,18 @@ li:not(:last-child) {
 /* Parallax CSS Start*/
 
 #parallax {
-  background-image: url("../images/fishy.jpg");
-  min-height: 500px;
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
+	background-image: url("../images/fishy.jpg");
+	min-height: 500px;
+	max-width: 100%;
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
 }
 #parallax2 {
   background-image: url("../images/david-landscape.jpg");
   height: 90%;
+  max-width: 100%;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
@@ -111,12 +113,13 @@ li:not(:last-child) {
 }
 
 .parallax3 {
-  background-image: url("../images/gc.jpg");
-  min-height: 500px;
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
+	background-image: url("../images/gc.jpg");
+	min-height: 500px;
+	max-width: 100%;
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
 }
 
 /* Scrolly thing for the archive/timeline */
