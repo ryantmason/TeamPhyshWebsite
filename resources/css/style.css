@@ -252,6 +252,12 @@ body {
   margin-bottom: 8%;
 }
 
+#demo {
+  text-align: center;
+  width: 700px;
+  height: 400px;
+}
+
 p.smalltitle {
   color: grey;
   font-size: 14px;
@@ -309,7 +315,7 @@ button:hover, a:hover {
 .grid-container {
   display: grid;
   grid-template-columns: repeat(2, 0.5fr);
-  grid-template-rows: repeat(6,0.5fr);
+  grid-template-rows: repeat(5,0.5fr);
   grid-column-gap: 5px;
   grid-row-gap: 10px;
 }
@@ -317,17 +323,31 @@ button:hover, a:hover {
 
 .grid-item {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
+  align-items: center;
   justify-content: center;
 }
 
 .grid-item3 {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: center;
+  align-items: center;
   padding-top: 100px;
 }
 
+.grid-item h2 {
+  font-size: 1.5em;
+  margin-bottom: 10px;
+  text-align: center;
+  display: block;
+}
+
+.grid-item iframe {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
 
 .documentdisplay {
   display: block;
