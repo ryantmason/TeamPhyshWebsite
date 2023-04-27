@@ -309,7 +309,7 @@ button:hover, a:hover {
 .grid-container {
   display: grid;
   grid-template-columns: repeat(2, 0.5fr);
-  grid-template-rows: repeat(3,0.5fr);
+  grid-template-rows: repeat(6,0.5fr);
   grid-column-gap: 5px;
   grid-row-gap: 10px;
 }
@@ -325,7 +325,7 @@ button:hover, a:hover {
   display: flex;
   flex-direction: row;
   justify-content: center;
-  padding-top: 50px;
+  padding-top: 100px;
 }
 
 
